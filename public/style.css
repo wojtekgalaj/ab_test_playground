@@ -60,10 +60,6 @@ h1 {
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -83,15 +79,12 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #bada55;
-  }
+figure {
+  width: 100%;
+  margin: 50px auto;
+}
+
+figcaption {
+  font-style: italic;
+  color: #888;
 }
