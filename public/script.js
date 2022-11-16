@@ -4,6 +4,8 @@
 
 const params = new URLSearchParams(window.location.search);
 
+let version;
+
 if (params.has('version')) {
   if (params.get('version') === 'a') {
     version = 'a';
@@ -26,7 +28,7 @@ if (version === 'a') {
 } else if (version === 'b') {
   title.textContent = 'Version B';
 
-  image.src = 'public/hotel_room_b.png';
+  image.src = 'hotel_room_b.png';
 
   button.style.backgroundColor = '#86c9f0';
 
