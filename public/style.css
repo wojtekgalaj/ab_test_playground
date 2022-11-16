@@ -88,3 +88,11 @@ figcaption {
   font-style: italic;
   color: #888;
 }
+
+.button__blue {
+  background-color: blue;
+}
+
+.hidden {
+  display: none;
+}
