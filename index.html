@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="public/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <link rel="stylesheet" href="public/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
-</head>
+  <body>
+    <div id="app">
+      <div>
+        <h1 id="title">A/B Testing example.</h1>
+        <figure>
+          <img
+            id="image"
+            src="public/hotel_room_a.png"
+            alt="A modern hotel room with walls and stuff"
+          />
+          <figcaption>Best hotel ever</figcaption>
+        </figure>
 
-<body>
-  <div id="app">
-    <div>
-      <h1>A/B Testing expample</h1>
-      <figure>
-        <img src="public/hotel_room_a.png" alt="A modern hotel room with walls and stuff">
-        <figcaption>Best hotel ever</figcaption>
-      </figure>
-      <p>Let's figure out which colour works best for the background of this buton.</p>
-      <p>Try switching between green and blue and figure out which one people prefer.</p>
-      <div class="card">
-        <button id="counter" type="button">What color works best</button>
+        <p>
+          Let's figure out which colour works best for the background of this
+          buton.
+        </p>
+        <p>
+          Try switching between green and blue and figure out which one people
+          prefer.
+        </p>
+
+        <div class="card">
+          <button id="counter" type="button">What color works best</button>
+        </div>
       </div>
     </div>
-  </div>
-</body>
 
+    <!-- Javascript file -->
+    <script src="script.js"></script>
+  </body>
 </html>
-
